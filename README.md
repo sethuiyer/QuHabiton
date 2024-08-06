@@ -1,7 +1,9 @@
 # QuHabiton
 ![img](https://raw.githubusercontent.com/sethuiyer/QuHabiton/main/logo.jpg)
 
-QuHabiton is an innovative habit tracker that borrows from the principles of quantum physics, topology, and data analysis to offer a unique perspective on habit formation. It encourages users to embrace the complexity and interconnectedness of their habits, fostering a deeper understanding of their personal behavior.
+<center> QuHabiton = Qubit + Habit + iton. </center><br><center>Helping your atomic habits with subatomic math. </center>
+
+QuHabiton is a creative experimental habit tracker that borrows from the principles of quantum physics, topology, and data analysis to offer a unique perspective on habit formation. It encourages users to embrace the complexity and interconnectedness of their habits, fostering a deeper understanding of their personal behavior.
 
 ## The Quantum Experience
 
@@ -15,7 +17,7 @@ We encourage you to share your experiences with QuHabiton, discussing the impact
 
 ## A Note on Creativity
 
-While QuHabiton employs real scientific concepts, it is not intended as a scientifically validated productivity tool. This is a creative experiment.
+While QuHabiton uses real scientific concepts, it is not intended as a scientifically validated productivity tool. This is a creative experiment.
 
 QuHabiton invites you to question the boundaries of habit tracking and embrace the uncertainty that lies at the heart of human behavior.
 
