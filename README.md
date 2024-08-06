@@ -1,7 +1,11 @@
 # QuHabiton
-![img](https://raw.githubusercontent.com/sethuiyer/QuHabiton/main/logo.jpg)
 
 <p align="center">QuHabiton = Qubit + Habit + iton</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sethuiyer/QuHabiton/main/logo.jpg" width="512" height="512" />
+</p>
+
 <p align="center">Helping your atomic habits with subatomic math</p>
 
 QuHabiton is a creative experimental habit tracker that borrows from the principles of quantum physics, topology, and data analysis to offer a unique perspective on habit formation. It encourages users to embrace the complexity and interconnectedness of their habits, fostering a deeper understanding of their personal behavior.
