@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import networkx as nx
 
-class QuHabitson:
+class QuHabiton:
     def __init__(self, name, difficulty, frequency):
         self.name = name
         self.difficulty = difficulty
@@ -59,7 +59,7 @@ class QuHabitson:
             self.amplitude += strength * 0.1j
         self.amplitude /= abs(self.amplitude)  # Normalize
 
-class QuHabitsonSystem:
+class QuHabitonSystem:
     def __init__(self, n_dimensions=5):
         self.habits = {}
         self.n_dimensions = n_dimensions
@@ -68,7 +68,7 @@ class QuHabitsonSystem:
         self.scaler = StandardScaler()
 
     def add_habit(self, name, difficulty, frequency):
-        self.habits[name] = QuHabitson(name, difficulty, frequency)
+        self.habits[name] = QuHabiton(name, difficulty, frequency)
 
     def entangle_habits(self, habit1_name, habit2_name, strength):
         self.habits[habit1_name].entangle(self.habits[habit2_name], strength)
@@ -131,7 +131,7 @@ class QuHabitsonSystem:
         ax.set_ylabel("Y")
         ax.set_zlabel("Z")
         ax.legend()
-        plt.title("QuHabitsons on Bloch Sphere")
+        plt.title("QuHabitons on Bloch Sphere")
         plt.show()
 
     def visualize_entanglement(self):
@@ -148,7 +148,7 @@ class QuHabitsonSystem:
                                cmap=plt.cm.RdYlBu)
         nx.draw_networkx_edges(G, pos, width=[G[u][v]['weight']*5 for u,v in G.edges()])
         nx.draw_networkx_labels(G, pos)
-        plt.title("QuHabitson Entanglement Network")
+        plt.title("QuHabiton Entanglement Network")
         plt.axis('off')
         plt.show()
 
@@ -172,7 +172,7 @@ class QuHabitsonSystem:
         diagrams = ripser(self.embedded_points)['dgms']
         plot_diagrams(diagrams, show=True)
 
-class QuHabitsonQML(QuHabitsonSystem):
+class QuHabitonQML(QuHabitonSystem):
     def __init__(self, n_dimensions=5):
         super().__init__(n_dimensions)
         self.qml_model = None
@@ -270,7 +270,7 @@ class QuHabitsonQML(QuHabitsonSystem):
         plt.show()
 
 # Example usage
-system = QuHabitsonQML()
+system = QuHabitonQML()
 system.add_habit("Meditation", difficulty=5, frequency=1)
 system.add_habit("Exercise", difficulty=7, frequency=3)
 system.add_habit("Reading", difficulty=3, frequency=1)
